@@ -1,0 +1,288 @@
+<html>
+    <head>
+    <style>
+
+    /* Fuentes a usar */        
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Roboto:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+    /* Fuente cuerpo */  
+
+    body{
+
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+
+    /* Fuente para el boton */  
+
+    h3{
+        font-family: 'Roboto:ital,wght@1,900', sans-serif;
+        color:#F8F8F8 ;
+        font-weight: 700;
+        line-height: 1.58;
+        letter-spacing: -.003em;
+        font-size: 12px;
+        padding: 70px; 
+    }
+
+    /* Contenedor principal */ 
+
+    .grid-container {
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #ffffff;
+        padding: 10px;
+
+    }
+
+    /* Barra superior */ 
+
+    .TopBar {
+        margin-bottom : 75px;
+        margin-top :25px;
+        display: grid;
+        grid-gap: 100px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    /* Menu de la barra superior */ 
+
+    .Menu {
+
+        display: grid;
+        grid-gap: 100px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    /* Contenedor de los botones */ 
+
+    .Buttons {
+
+    display: grid;
+    grid-gap: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    }
+
+    /* Logo */ 
+
+    .logo {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    }
+
+    /* Boton carrito de compra */ 
+
+    .Shoppingcart {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    }
+
+    /* Boton campana */ 
+
+    .Bell {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    }
+
+    /* Contenedor de las imagenes */ 
+
+    .images {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 200px;
+    width: 200px;
+    position: relative;
+
+    }
+
+    /* Imagen #1 */ 
+
+    .image1 {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 200px;
+    width: 200px;
+    
+    }
+
+    /* Imagen #2 */ 
+
+    .image2 {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+    }
+
+    /* Texto principal de la página */ 
+
+    .maintext {
+    margin-left: 300 px;
+    font-size: large;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    }
+
+    /* Subtexto de la pagina */ 
+
+    .lowtext {
+    margin-left: 100 px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    }
+
+    /* Boton ropa */ 
+
+    .Ropa {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #666666;
+
+    }
+
+    /* Boton accesorios */ 
+
+    .Accesorios {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #666666;
+
+    }
+
+    /* Boton zapatos */
+
+    .Zapatos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #666666;
+
+    }
+
+    /* Boton Ver mas */
+
+    .button {
+        
+    margin-top:100px;
+    border-radius: 10px; 
+    height: 30px;
+     width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000000;
+
+    }
+
+   
+    
+    </style>
+    </head>
+    <body>
+
+        <div class="grid-container">
+
+            <div class="TopBar">
+
+                <div class="logo"style="margin-left: 100px;"><img src="IMG/Logo.svg" width=" 208" height="31"></div>
+
+                <div class="Menu">
+
+                    <div class="Ropa"style="margin-top :10px;">Ropa</div>
+                    <div class="Accesorios" style= "margin-top :10px;">Accesorios</div>
+                    <div class="Zapatos" style= "margin-top :10px;margin-right :100px;">Zapatos</div>
+
+                </div>
+
+                <div class="Buttons">
+
+                    <div class="Bell"><img src="IMG/notificacions.svg" width=" 25" height="25"></div>
+                    <div class="Shoppingcart"><img src="IMG/shopping-card.svg" width=" 25" height="25"></div>
+                    
+                </div>
+            
+            </div>
+
+            <div class="images">
+
+                <div class="image1"><img src="IMG/sincerely-media-6cHumpSxTvs-unsplash@2x.png" width=" 225" height="225"></div>
+                <div class="image2"><img src="IMG/dmitriy-idoedMZ732E-unsplash@2x.png" width=" 219" height="338"></div>
+
+            </div>
+
+            <div class="maintext"style= "margin-left :100px;">Es simplemente el relleno de texto de las imprentas y archivos de texto. Lorem impsum ha sido el texto de relleno estándar de las industrias desde el año 1500</div>
+            
+            <div class="lowtext">
+            
+                <div style= "font-size: xxx-large;">Lorem Ipsum</div>
+                <div style= "font-size: small; ">Es simplemente el relleno de texto de las imprentas y archivos de texto. Lorem impsum ha sido el texto de relleno estándar de las industrias desde el ano 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta</div>
+                <div class="button" style="margin-left:50px; width: 150px; margin-top: 0px;margin-right:20px;"> 
+                   
+                    <h3 style="padding:0px;">Ver mas</h3>
+                    <div style="margin-left: 5px;"><img src="IMG/White_arrow_down.svg.png" width=" 15" height="15"></div>
+                
+                </div>
+                <div class="image1"><img src="IMG/group16@2x.png" width=" 225" height="225"></div>
+            </div>
+            
+          </div>
+    </body>
+    </html>
+
+    
