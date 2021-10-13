@@ -34,7 +34,6 @@
 
         display: grid;
         grid-template-columns: auto auto auto;
-        background-color: #ffffff;
         padding: 10px;
 
     }
@@ -118,8 +117,8 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 5;
-    height: 200px;
-    width: 200px;
+    height: 225px;
+    width: 225px;
     position: relative;
 
     }
@@ -148,31 +147,36 @@
     height: 200px;
     width: 200px;
     position: absolute;
-
+    top: 125px;
+    left: 80px ;
     }
 
     /* Texto principal de la página */ 
 
     .maintext {
     margin-left: 300 px;
-    font-size: large;
+    font-size: x-large;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    text-align: center;
 
     }
 
     /* Subtexto de la pagina */ 
 
     .lowtext {
-    margin-left: 100 px;
+    text-align: justify;
+    margin-left: 150px ;
+    margin-top: 100px ;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+    position: relative;
 
     }
 
@@ -266,19 +270,19 @@
 
             </div>
 
-            <div class="maintext"style= "margin-left :100px;">Es simplemente el relleno de texto de las imprentas y archivos de texto. Lorem impsum ha sido el texto de relleno estándar de las industrias desde el año 1500</div>
+            <div class="maintext"style= "margin-left :100px;">Es simplemente el relleno de texto de las imprentas y archivos <br> de texto. Lorem impsum ha sido el texto de relleno estandar de <br> las industrias desde el ano 1500</div>
             
             <div class="lowtext">
             
-                <div style= "font-size: xxx-large;">Lorem Ipsum</div>
-                <div style= "font-size: small; ">Es simplemente el relleno de texto de las imprentas y archivos de texto. Lorem impsum ha sido el texto de relleno estándar de las industrias desde el ano 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta</div>
-                <div class="button" style="margin-left:50px; width: 150px; margin-top: 0px;margin-right:20px;"> 
+                <div style= "position: relative; font-size: xxx-large; margin-left: 100 px; top: 100px;">Lorem Ipsum</div>
+                <div style= "position: relative; font-size: small; margin-left: 100 px;top: 130px; ">Es simplemente el relleno de texto de las imprentas y <br> archivos de texto. Lorem impsum ha sido el texto de relleno <br> estandar de las industrias desde el ano 1500, cuando un <br> impresor (N. del T. persona que se dedica a la imprenta</div>
+                <div class="button" style="position: relative; width: 150px; top: 50px; margin-right:20px;"> 
                    
                     <h3 style="padding:0px;">Ver mas</h3>
                     <div style="margin-left: 5px;"><img src="IMG/White_arrow_down.svg.png" width=" 15" height="15"></div>
                 
                 </div>
-                <div class="image1"><img src="IMG/group16@2x.png" width=" 225" height="225"></div>
+                <div class="image1" style="position: relative; top:-250px; left: 175px; z-index: -1;"><img src="IMG/group16@2x.png" width=" 447" height="349"></div>
             </div>
             
           </div>
